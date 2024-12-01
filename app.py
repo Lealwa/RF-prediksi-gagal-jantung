@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
-import joblib
-
+pip install scikit-learn imbalanced-learn joblib
 # Load model
 loaded_model = joblib.load('random_forest_model.pkl')
 
