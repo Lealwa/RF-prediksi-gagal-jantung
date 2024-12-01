@@ -1,13 +1,5 @@
 import streamlit as st
 import pandas as pd
-from sklearn.model_selection import train_test_split, cross_val_predict, StratifiedKFold
-from sklearn.preprocessing import MinMaxScaler, LabelEncoder
-from sklearn.metrics import mean_absolute_percentage_error, mean_squared_error, accuracy_score
-from imblearn.combine import SMOTEENN
-from imblearn.over_sampling import SMOTE
-from sklearn.base import BaseEstimator, ClassifierMixin
-import numpy as np
-from sklearn.naive_bayes import GaussianNB
 import joblib
 
 # Load model
